@@ -33,9 +33,12 @@
 .navbar_top .navbar_search_frame{
     width: 650px;
     height: 50px;
+
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    border-radius: 10px;
     background: #fff;
 }
 
