@@ -955,7 +955,7 @@
 }
 
 .tv_frame .tv_product_boxes .product_box{
-    width: 250px;
+    width: 255px;
     height: 452px;
 
     display: flex;
@@ -983,6 +983,7 @@
     justify-content: center;
 
     background-image: url("../images/icons/event_bg.png");
+    border-radius: 6px;
 }
 
 .event_frame .container{
@@ -1073,11 +1074,13 @@
 
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 
 }
 
 .event_frame .event_prouct_wrapper .event_product_boxes{
     position: relative;
+    gap: 8px;
     width: auto;
     height: auto;
 
@@ -1087,7 +1090,7 @@
 }
 
 .event_product_boxes .event_product_box{
-    margin-right: 8px;
+    /* margin-right: 8px; */
     width: 205px;
     height: 392px;
 
