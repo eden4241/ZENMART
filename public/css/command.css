@@ -1,3 +1,7 @@
+:root {
+  --font: "Jost";
+}
+
 html,
 body {
   margin: 0;
@@ -89,7 +93,7 @@ p {
   border: none;
   outline: none;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -105,7 +109,7 @@ p {
   border: none;
   outline: none;
 
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-size: 15px;
   font-weight: 400;
@@ -172,7 +176,7 @@ p {
 }
 
 .navbar_frame .box_info_box span {
-  font-family: Jost;
+  font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -181,7 +185,7 @@ p {
 }
 
 .navbar_frame .box_info_box strong {
-  font-family: "Jost";
+    font-family: var(--font);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -203,7 +207,7 @@ p {
   background-color: #f5c34b;
   border-radius: 50%;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-size: 8px;
   font-weight: 700;
@@ -247,7 +251,7 @@ p {
 }
 
 .navbar_frame .browse_box span {
-  font-family: "Jost";
+    font-family: var(--font);
   font-style: normal;
   font-size: 16px;
   font-weight: 400;
@@ -272,7 +276,7 @@ p {
 }
 
 .navbar_frame .router_menu a {
-  font-family: "Jost";
+    font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -295,7 +299,7 @@ p {
 
 .navbar_frame .sorting_menu span {
   margin-left: 20px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -317,9 +321,9 @@ p {
   background: #f3f5f6;
 }
 
-.footer_spec_title {
+.footer_frame .footer_spec_title {
   margin-bottom: 30px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -331,7 +335,7 @@ p {
   flex-direction: column;
 }
 
-.container .footer_top {
+.footer_frame .container .footer_top {
   margin-bottom: 90px;
   width: 100%;
   height: auto;
@@ -340,30 +344,30 @@ p {
   flex-direction: row;
 }
 
-.footer_top .footer_contact_box {
+.footer_frame .footer_top .footer_contact_box {
   display: flex;
   flex-direction: column;
 }
 
-.footer_contact_box .footer_contact_main {
+.footer_frame .footer_contact_box .footer_contact_main {
   margin-bottom: 30px;
   display: flex;
   flex-direction: row;
 }
 
-.footer_contact_main img {
+.footer_frame .footer_contact_main img {
   width: 35px;
   height: 30px;
 }
 
-.footer_contact_main div {
+.footer_frame .footer_contact_main div {
   margin-left: 30px;
   display: flex;
   flex-direction: column;
 }
 
-.footer_contact_main div strong {
-  font-family: "Jost";
+.footer_frame .footer_contact_main div strong {
+    font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -371,9 +375,9 @@ p {
   color: #041e42;
 }
 
-.footer_contact_main div span {
+.footer_frame .footer_contact_main div span {
   margin-top: 10px;
-  font-family: "Jost";
+  font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -381,14 +385,14 @@ p {
   color: #041e42;
 }
 
-.footer_top .footer_support_box {
+.footer_frame .footer_top .footer_support_box {
   margin-left: 90px;
   display: flex;
   flex-direction: column;
 }
 
-.footer_support_box a {
-  font-family: "Jost";
+.footer_frame .footer_support_box a {
+    font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -396,23 +400,23 @@ p {
   color: #595b5e;
 }
 
-.footer_top .footer_media_box {
+.footer_frame .footer_top .footer_media_box {
   margin-left: 90px;
   display: flex;
   flex-direction: column;
 }
 
-.footer_media_box .media_box {
+.footer_frame .footer_media_box .media_box {
   margin-top: 15px;
   display: flex;
   flex-direction: row;
 }
 
-.media_box a {
+.footer_frame .media_box a {
   margin-right: 28px;
 }
 
-.footer_top .footer_mobile_apps {
+.footer_frame .footer_top .footer_mobile_apps {
   margin-top: 30px;
   width: 163px;
   height: auto;
@@ -421,17 +425,17 @@ p {
   flex-direction: column;
 }
 
-.footer_mobile_apps .app_box {
+.footer_frame .footer_mobile_apps .app_box {
   display: flex;
   flex-direction: column;
 }
 
-.app_box div a {
+.footer_frame .app_box div a {
   margin-right: 23px;
 }
 
-.app_box div span {
-  font-family: "Jost";
+.footer_frame .app_box div span {
+    font-family: var(--font);
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -439,7 +443,7 @@ p {
   color: #595b5e;
 }
 
-.footer_top .footer_payment_box {
+.footer_frame .footer_top .footer_payment_box {
   position: absolute;
   right: 0;
   margin-top: 136px;
@@ -448,16 +452,16 @@ p {
   flex-direction: column;
 }
 
-.footer_payment_box .card_box {
+.footer_frame .footer_payment_box .card_box {
   display: flex;
   flex-direction: row;
 }
 
-.card_box img {
+.footer_frame .card_box img {
   margin-right: 10px;
 }
 
-.footer_bottom {
+.footer_frame .footer_bottom {
   position: relative;
   width: 100%;
   height: auto;
@@ -467,7 +471,7 @@ p {
   border-top: 1px solid #eaeaea;
 }
 
-.footer_bottom .footer_description span {
+.footer_frame .footer_bottom .footer_description span {
   margin-right: 66px;
   margin-top: 20px;
   width: 228px;
@@ -475,26 +479,26 @@ p {
 
   display: flex;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
   color: rgb(4, 30, 66);
 }
 
-.footer_bottom .footer_privacy_info {
-    margin-top: 20px;
+.footer_frame .footer_bottom .footer_privacy_info {
+  margin-top: 20px;
   width: 263px;
   height: 40px;
 
-  font-family: "Jost";
+  font-family: var(--font);
   font-size: 14px;
   font-weight: 400;
   line-height: 40px;
   color: rgb(4, 30, 66);
 }
 
-.footer_bottom .footer_currency {
+.footer_frame .footer_bottom .footer_currency {
   margin-left: 380px;
   margin-top: 20px;
   width: 187px;
@@ -510,11 +514,11 @@ p {
   background: rgb(255, 255, 255);
 }
 
-.footer_currency select{
-    border: none;
+.footer_frame .footer_currency select {
+  border: none;
 }
 
-.footer_bottom .footer_language {
+.footer_frame .footer_bottom .footer_language {
   position: absolute;
   right: 0;
   margin-top: 20px;
@@ -531,6 +535,6 @@ p {
   background: rgb(255, 255, 255);
 }
 
-.footer_language select{
-    border: none;
+.footer_frame .footer_language select {
+  border: none;
 }
